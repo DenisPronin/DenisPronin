@@ -1,7 +1,5 @@
+import * as Styled from './RightColumn.styled';
+
 export function RightColumn({ children }) {
-  return (
-    <div>
-      {children}
-    </div>
-  );
+  return <Styled.Container>{children}</Styled.Container>;
 }
