@@ -4,6 +4,7 @@ import { UIBox } from './Box.styled';
 const lineHeightMap = {
   10: 9,
   12: 12,
+  14: 16,
   15: 16,
   16: 20,
   17: 20,
@@ -16,7 +17,7 @@ const lineHeightMap = {
 };
 
 export const UIText = styled(UIBox)`
-  font-weight: ${(props) => (props.bold ? 800 : undefined)};
+  font-weight: ${(props) => (props.$bold ? 800 : undefined)};
   ${(props) =>
     props.color !== undefined
       ? css`

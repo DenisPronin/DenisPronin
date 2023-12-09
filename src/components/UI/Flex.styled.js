@@ -34,4 +34,10 @@ export const UIFlex = styled(UIBox)`
     css`
       justify-content: ${props.jc};
     `}
+
+  ${(props) =>
+    props.fw &&
+    css`
+      flex-wrap: ${props.fw};
+    `}
 `;
