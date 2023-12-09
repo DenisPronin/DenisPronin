@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const AppContainer = styled.div`
-  background-color: #0f172a;
+  background-color: #111d3f;
   color: #fff;
 `;
 

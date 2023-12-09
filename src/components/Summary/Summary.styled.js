@@ -1,5 +1,10 @@
 import styled from 'styled-components';
+import { Colors } from '../../variables/colors';
 import { UIBox } from '../UI/Box.styled';
+
+export const Container = styled.div`
+  color: ${Colors.GREY};
+`;
 
 export const Title = styled.h1`
   font-size: 48px;
