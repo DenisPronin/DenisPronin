@@ -23,7 +23,7 @@ const experienceData = [
             <a href='https://countysports.zone/' target='_blank' rel='noreferrer'>
               web application
             </a>{' '}
-            for an American school sports league.
+            for American schools sports league.
           </div>
         ),
       },
