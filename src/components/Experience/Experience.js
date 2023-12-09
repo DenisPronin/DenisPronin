@@ -116,7 +116,7 @@ const experienceData = [
 
 export function Experience() {
   return (
-    <UIBox mt={48}>
+    <UIBox mt={48} id='experience'>
       <UIText mb={16} $bold color={Colors.GREY}>
         EXPERIENCE
       </UIText>

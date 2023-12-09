@@ -3,7 +3,7 @@ import { Text } from '../UI/Text';
 
 export function About() {
   return (
-    <UIFlex direction='column' gap={8}>
+    <UIFlex direction='column' gap={8} id='about'>
       <Text>Hi, I'm Denis, an experienced front end developer.</Text>
       <Text>
         I have 10+ years of experience in commercial development. I'm proficient with JS frameworks

@@ -6,7 +6,7 @@ import { UIText } from '../UI/Text.styled';
 
 export function Skills() {
   return (
-    <UIBox mt={48}>
+    <UIBox mt={48} id='skills'>
       <UIText mb={16} $bold color={Colors.GREY}>
         TECH STACK
       </UIText>
