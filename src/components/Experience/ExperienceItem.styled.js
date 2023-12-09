@@ -5,10 +5,18 @@ import { Text } from '../UI/Text';
 export const ItemContainer = styled.div`
   gap: 16px;
   display: flex;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
 `;
 
 export const DateColumn = styled(Text)`
   flex: 0 0 140px;
+
+  @media (max-width: 1024px) {
+    flex-basis: auto;
+  }
 `;
 
 export const DescriptionList = styled.ul`

@@ -3,6 +3,7 @@ import { UIBox } from '../UI/Box.styled';
 import { UIFlex } from '../UI/Flex.styled';
 import { Text } from '../UI/Text';
 import { UIText } from '../UI/Text.styled';
+import * as Styled from './Skills.styled';
 
 export function Skills() {
   return (
@@ -12,25 +13,25 @@ export function Skills() {
       </UIText>
 
       <UIFlex direction='column' gap={16}>
-        <UIFlex gap={4}>
+        <Styled.Skill>
           <Text $bold>Languages:</Text>
           <Text>Typescript, Javascript, HTML5, CSS</Text>
-        </UIFlex>
+        </Styled.Skill>
 
-        <UIFlex gap={4}>
+        <Styled.Skill>
           <Text $bold>Frameworks:</Text>
           <Text>React, Vue.js, Angular</Text>
-        </UIFlex>
+        </Styled.Skill>
 
-        <UIFlex gap={4}>
+        <Styled.Skill>
           <Text $bold>Libraries:</Text>
           <Text>Redux, Mobx, Material IU, Ant, Chakra UI</Text>
-        </UIFlex>
+        </Styled.Skill>
 
-        <UIFlex gap={4}>
+        <Styled.Skill>
           <Text $bold>Tools:</Text>
           <Text>Git, Webpack, Vite</Text>
-        </UIFlex>
+        </Styled.Skill>
       </UIFlex>
     </UIBox>
   );

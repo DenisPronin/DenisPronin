@@ -15,4 +15,9 @@ export const Main = styled.div`
     padding-left: 6rem;
     padding-right: 6rem;
   }
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;

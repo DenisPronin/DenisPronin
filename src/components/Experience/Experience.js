@@ -8,7 +8,8 @@ const experienceData = [
   {
     id: '0',
     position: 'Senior Front End Developer',
-    companyName: 'Self Employed',
+    companyName: 'Velvetech',
+    companyDescription: 'Software development company from Chicago, USA',
     startDate: '2023',
     endDate: 'PRESENT',
     descriptionItems: [
