@@ -8,7 +8,7 @@ export const ItemContainer = styled.div`
 `;
 
 export const DateColumn = styled(Text)`
-  flex: 0 0 120px;
+  flex: 0 0 140px;
 `;
 
 export const DescriptionList = styled.ul`

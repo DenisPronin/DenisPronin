@@ -6,6 +6,33 @@ import { ExperienceItem } from './ExperienceItem';
 
 const experienceData = [
   {
+    id: '0',
+    position: 'Senior Front End Developer',
+    companyName: 'Self Employed',
+    startDate: '2023',
+    endDate: 'PRESENT',
+    descriptionItems: [
+      {
+        text: "Developed a healthcare web application for the care of Alzheimer's patients",
+      },
+      {
+        text: (
+          <div>
+            Developed a{' '}
+            <a href='https://countysports.zone/' target='_blank' rel='noreferrer'>
+              web application
+            </a>{' '}
+            for an American school sports league.
+          </div>
+        ),
+      },
+      {
+        text: 'Developed web application for return orders from shopify and walmart',
+      },
+    ],
+    techStack: ['React', 'Redux', 'MaterialUI', 'MobX', 'Shopify', 'SCSS'],
+  },
+  {
     id: '1',
     position: 'Senior Front End Developer',
     companyName: 'Letmespeak.org',
@@ -56,6 +83,35 @@ const experienceData = [
     ],
     techStack: ['React', 'Redux', 'Ant Design', 'Styled components', 'Web3', 'Solana'],
   },
+  {
+    id: '2',
+    position: 'Front End Team Lead',
+    companyName: 'Sibers',
+    startDate: '2014',
+    endDate: '2021',
+    companyDescription: 'An experienced agile software development firm',
+    descriptionItems: [
+      {
+        text: 'Improved company tech stack to modern standards, transitioning from jQuery to frameworks like React, Angular, and Vue.js',
+      },
+      {
+        text: 'Integrated build systems (Webpack)',
+      },
+      {
+        text: 'Experience working on both new projects from their inception and projects with existing legacy code.',
+      },
+      {
+        text: 'Provided project estimates and maintained communication with clients',
+      },
+      {
+        text: 'Assembled a front-end team comprising more than 10 members',
+      },
+      {
+        text: 'Provided mentorship to junior developers',
+      },
+    ],
+    techStack: ['React', 'Redux', 'Vue.js', 'Angular', 'Webpack', 'jQuery', 'SCSS'],
+  },
 ];
 
 export function Experience() {
@@ -65,7 +121,7 @@ export function Experience() {
         EXPERIENCE
       </UIText>
 
-      <UIFlex direction='column' gap={16}>
+      <UIFlex direction='column' gap={32}>
         {experienceData.map((experience) => {
           return <ExperienceItem data={experience} key={experience.id} />;
         })}
