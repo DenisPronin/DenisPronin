@@ -11,17 +11,19 @@ import * as Styled from './App.styled';
 function App() {
   return (
     <Styled.AppContainer>
-      <LeftColumn>
-        <Summary />
-        <TableOfContents />
-        <SocialNetworks />
-      </LeftColumn>
+      <Styled.Main>
+        <LeftColumn>
+          <Summary />
+          <TableOfContents />
+          <SocialNetworks />
+        </LeftColumn>
 
-      <RightColumn>
-        <About />
-        <Skills />
-        <Experience />
-      </RightColumn>
+        <RightColumn>
+          <About />
+          <Skills />
+          <Experience />
+        </RightColumn>
+      </Styled.Main>
     </Styled.AppContainer>
   );
 }
