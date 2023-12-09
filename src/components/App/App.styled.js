@@ -12,4 +12,9 @@ export const Main = styled.div`
   min-height: 100dvh;
   gap: 16px;
   padding: 96px 0;
+
+  @media (min-width: 1024px) {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
 `;

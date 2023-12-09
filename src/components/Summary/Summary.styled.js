@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { UIBox } from '../UI/Box.styled';
 
 export const Title = styled.h1`
   font-size: 48px;
@@ -6,7 +7,7 @@ export const Title = styled.h1`
   line-height: 1;
 `;
 
-export const SubTitle = styled.h1`
+export const SubTitle = styled(UIBox)`
   font-size: 20px;
   font-weight: 500;
   line-height: 1.75rem;

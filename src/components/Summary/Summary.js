@@ -4,7 +4,7 @@ export function Summary() {
   return (
     <div>
       <Styled.Title>Denis Pronin</Styled.Title>
-      <Styled.SubTitle>Senior front end developer</Styled.SubTitle>
+      <Styled.SubTitle mt={12}>Senior front end developer</Styled.SubTitle>
     </div>
   );
 }
